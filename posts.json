@@ -30,6 +30,14 @@
   "category": "Your Category",
   "summary": "A short description shown on the card.",
   "content": "The full text of your post goes here. Write as much as you want!"
+},
+{    "id": 4,
+  "title": "Skin Care for Life",
+  "date": "April 24, 2026",
+  "category": "Health Care",
+  "summary": "Health care is the organized provision of medical services to prevent, diagnose, and treat physical and mental illnesses, encompassing primary care, specialized hospital services, and home-based support. It involves professionals, technologies, and systems aimed at improving health, often categorized into public and private sectors, with challenges including access, quality, and cost..",
+  "content": "A detailed daily skin care routine involves cleansing, treating, hydrating, and protecting. Morning focuses on protection with SPF, while evening focuses on cleaning and repair, including double cleansing and using actives like retinol or serum. Consistent steps—cleanse, treat, moisturize, and apply SPF 3+—will yield the best results.nvolves professionals, technologies, and systems aimed at improving health, often categorized into public a "
+             
 }
 ]
 
