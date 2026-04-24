@@ -22,7 +22,15 @@
     "category": "Books",
     "summary": "A short list of the books that had the biggest impact on me this year.",
     "content": "Reading has been a big part of my life this year. Some books that really stood out: 'Atomic Habits' by James Clear helped me build better routines. 'The Almanack of Naval Ravikant' changed how I think about wealth and happiness. And 'Deep Work' by Cal Newport made me rethink how I spend my attention."
-  }
+  },
+  {
+  "id": 4,
+  "title": "Your Post Title Here",
+  "date": "April 24, 2026",
+  "category": "Your Category",
+  "summary": "A short description shown on the card.",
+  "content": "The full text of your post goes here. Write as much as you want!"
+}
 ]
 
 
