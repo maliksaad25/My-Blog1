@@ -1,43 +1,9 @@
 [
-   {
-    "id": 1,
-    "title": "Welcome to My Blog!",
-    "date": "April 24, 2026",
-    "category": "General",
-    "summary": "This is my very first blog post. I'm excited to share my thoughts and ideas with you here.",
-    "content": "Hello and welcome! This is the beginning of my blog journey. I plan to write about things I find interesting — from technology to everyday life. Stay tuned for more posts coming soon. Thanks for visiting!"
-  },
-  {
-    "id": 2,
-    "title": "5 Things I Learned This Week",
-    "date": "April 20, 2026",
-    "category": "Learning",
-    "summary": "Every week brings new lessons. Here are five things that surprised or inspired me this week.",
-    "content": "1. Small habits compound over time.\n2. Asking questions is always better than guessing.\n3. Rest is just as important as hard work.\n4. Learning HTML is not as scary as it looks.\n5. Teaching something to others is the best way to truly understand it."
-  },
-  {
-    "id": 3,
-    "title": "My Favorite Books of the Year",
-    "date": "April 15, 2026",
-    "category": "Books",
-    "summary": "A short list of the books that had the biggest impact on me this year.",
-    "content": "Reading has been a big part of my life this year. Some books that really stood out: 'Atomic Habits' by James Clear helped me build better routines. 'The Almanack of Naval Ravikant' changed how I think about wealth and happiness. And 'Deep Work' by Cal Newport made me rethink how I spend my attention."
-  },
-  {
-  "id": 4,
-  "title": "New Post Practice",
-  "date": "April 24, 2026",
-  "category": "Your Category",
-  "summary": "A short description shown on the card.",
-  "content": "The full text of your post goes here. Write as much as you want!"
-},
-{    "id": 4,
-  "title": "Skin Care for Life",
-  "date": "April 24, 2026",
-  "category": "Health Care",
-  "summary": "Health care is the organized provision of medical services to prevent, diagnose, and treat physical and mental illnesses, encompassing primary care, specialized hospital services, and home-based support. It involves professionals, technologies, and systems aimed at improving health, often categorized into public and private sectors, with challenges including access, quality, and cost..",
-  "content": "A detailed daily skin care routine involves cleansing, treating, hydrating, and protecting. Morning focuses on protection with SPF, while evening focuses on cleaning and repair, including double cleansing and using actives like retinol or serum. Consistent steps—cleanse, treat, moisturize, and apply SPF 3+—will yield the best results.nvolves professionals, technologies, and systems aimed at improving health, often categorized into public a "
-             
+{
+   
+
+
+   
 }
 ]
 
