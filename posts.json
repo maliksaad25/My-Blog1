@@ -1,29 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "Welcome to My Blog!",
-    "date": "April 24, 2026",
-    "category": "General",
-    "summary": "This is my very first blog post. I'm excited to share my thoughts and ideas with you here.",
-    "content": "Hello and welcome! This is the beginning of my blog journey. I plan to write about things I find interesting — from technology to everyday life. Stay tuned for more posts coming soon. Thanks for visiting!"
-  },
-  {
-    "id": 2,
-    "title": "5 Things I Learned This Week",
-    "date": "April 20, 2026",
-    "category": "Learning",
-    "summary": "Every week brings new lessons. Here are five things that surprised or inspired me this week.",
-    "content": "1. Small habits compound over time.\n2. Asking questions is always better than guessing.\n3. Rest is just as important as hard work.\n4. Learning HTML is not as scary as it looks.\n5. Teaching something to others is the best way to truly understand it."
-  },
-  {
-    "id": 3,
-    "title": "My Favorite Books of the Year",
-    "date": "April 15, 2026",
-    "category": "Books",
-    "summary": "A short list of the books that had the biggest impact on me this year.",
-    "content": "Reading has been a big part of my life this year. Some books that really stood out: 'Atomic Habits' by James Clear helped me build better routines. 'The Almanack of Naval Ravikant' changed how I think about wealth and happiness. And 'Deep Work' by Cal Newport made me rethink how I spend my attention."
-  },
-  {
   "id": 4,
   "title": "New Post Practice",
   "date": "April 24, 2026",
