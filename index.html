@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <h1>My Blog</h1>
+    <p>Thoughts, ideas, and things I find interesting</p>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+
+    <!-- LIST VIEW (shown by default) -->
+    <div id="list-view">
+      <p class="section-title">Latest Posts</p>
+      <div id="loading">Loading posts...</div>
+      <div id="error-msg">Could not load posts. Make sure posts.json exists and you are using a local server.</div>
+      <div id="posts-container"></div>
+    </div>
+
+    <!-- SINGLE POST VIEW (hidden by default) -->
+    <div id="post-view">
+      <button class="back-btn" onclick="showList()">← Back to all posts</button>
+      <div class="post-full">
+        <span class="category" id="single-category"></span>
+        <h1 id="single-title"></h1>
+        <p class="date" id="single-date"></p>
+        <div class="content" id="single-content"></div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    &copy; 2026 My Blog · Built with plain HTML, CSS & JavaScript
+  </footer>
+
+  <!-- ===== JAVASCRIPT ===== -->
+  <script>
+    // ---------- LOAD POSTS FROM JSON FILE ----------
+    fetch('posts.json')
+      .then(function(response) {
+        // Check if the file was found
+        if (!response.ok) {
+          throw new Error('Could not load posts.json');
+        }
+        return response.json();
+      })
+      .then(function(posts) {
+        // Hide the "Loading..." text
+        document.getElementById('loading').style.display = 'none';
+        // Show the posts on the page
+        displayPosts(posts);
+      })
+      .catch(function(error) {
+        // If something went wrong, show an error message
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('error-msg').style.display = 'block';
+        console.error('Error:', error);
+      });
+
+    // ---------- DISPLAY ALL POSTS AS CARDS ----------
+    function displayPosts(posts) {
+      var container = document.getElementById('posts-container');
+
+      // Loop through every post and create a card for it
+      posts.forEach(function(post) {
+        var card = document.createElement('div');
+        card.className = 'post-card';
+
+        // Fill the card with the post's info
+        card.innerHTML =
+          '<span class="category">' + post.category + '</span>' +
+          '<h2>' + post.title + '</h2>' +
+          '<p class="date">' + post.date + '</p>' +
+          '<p>' + post.summary + '</p>' +
+          '<span class="read-more">Read more →</span>';
+
+        // When the card is clicked, open the full post
+        card.onclick = function() {
+          showPost(post);
+        };
+
+        container.appendChild(card);
+      });
+    }
+
+    // ---------- SHOW A SINGLE FULL POST ----------
+    function showPost(post) {
+      // Fill in the post details
+      document.getElementById('single-category').textContent = post.category;
+      document.getElementById('single-title').textContent = post.title;
+      document.getElementById('single-date').textContent = post.date;
+      document.getElementById('single-content').textContent = post.content;
+
+      // Hide the list, show the single post
+      document.getElementById('list-view').style.display = 'none';
+      document.getElementById('post-view').style.display = 'block';
+
+      // Scroll to the top of the page
+      window.scrollTo(0, 0);
+    }
+
+    // ---------- GO BACK TO THE POST LIST ----------
+    function showList() {
+      document.getElementById('post-view').style.display = 'none';
+      document.getElementById('list-view').style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
