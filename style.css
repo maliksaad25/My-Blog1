@@ -220,3 +220,27 @@ footer {
   display: block;
   margin: 0 auto 3px;
 }
+@media (max-width: 600px) {
+
+  main {
+    padding: 0 10px;
+  }
+
+  .post-card {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .post-card h2 {
+    font-size: 18px;
+  }
+
+  .post-card p {
+    font-size: 14px;
+  }
+
+  .post-image {
+    height: 180px;
+  }
+
+}
