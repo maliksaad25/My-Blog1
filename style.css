@@ -21,8 +21,8 @@ header {
   background-color: #1a1a2e;
   color: #fdf8f2;
   text-align: center;
-  padding: 30px 20px 20px;
-  border-bottom: 5px solid #e07b39;
+  padding: 10px 5px 5px;
+  border-bottom: 2px solid #e07b39;
 }
 
 header p {
