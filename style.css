@@ -208,4 +208,8 @@ footer {
   border-radius: 8px;
   margin-bottom: 10px;
 }
-
+.logo {
+  width: 80px;
+  display: block;
+  margin: 0 auto 10px;
+}
