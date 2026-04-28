@@ -112,7 +112,7 @@
       document.getElementById('single-category').textContent = post.category;
       document.getElementById('single-title').textContent = post.title;
       document.getElementById('single-date').textContent = post.date;
-      document.getElementById('single-content').textContent = post.content;
+      document.getElementById('single-content').innerHTML = post.content;
 
       // Hide the list, show the single post
       document.getElementById('list-view').style.display = 'none';
