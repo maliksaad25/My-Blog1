@@ -70,7 +70,7 @@
         // Hide the "Loading..." text
         document.getElementById('loading').style.display = 'none';
         // Show the posts on the page
-        displayPosts(posts);
+        displayPosts(posts.reverse());
       })
       .catch(function(error) {
         // If something went wrong, show an error message
